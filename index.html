@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Test Me</title>
+</head>
+<body>
+    <header class="row justify-content-around">
+        <h1>Welcome to the quiz</h1>
+        <section class="container">
+            <h2>Instructions</h2>
+            <p>The rules are simple!</p>
+            <ol class="col">
+                <li>Timer starts when the quiz starts</li>
+                <li>Quiz ends either when all questions are answered or timer runs out</li>
+                <li>For every wrong answer, 10 seconds will be deducted from the timer</li>
+            </ol>
+        </section>  
+        <nav>
+            <a class="btn" href="./highscore.html">High School</a>
+            <div class="timer">Time:</div>
+        </nav>
+    </header>
+    <div class="panel row justify-content-around">
+
+        <div class="question-container" id="question">
+            Question goes here.
+        </div>
+        <div class="answer-container">
+            <button class="answer" onclick="" id="an1" >answer</button>
+
+            <button class="answer" id="an2" >answer2</button>
+
+            <button class="answer" id="an3">answer3</button>
+
+            <button class="answer" id="an4">answer4</button>
+        </div>
+        <div class="navigation">
+            <button class="evaluate">Evaluate</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

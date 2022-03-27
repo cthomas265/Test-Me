@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #f75c03;
+    --secondary-color: #2a90cb;
+}
+
+/* GAME.HTML */
+
+
+header  {
+    background-color: #8edce6;
+    padding: 10px 25px 0 0;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+#game section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#question {
+    font-size: 30px;
+}
+
+.answer, a {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    border-radius: 20px;
+    color: black;
+}
+.answer:hover {
+    background-color: var(--primary-color);
+}
+/* 
+.incorrect {
+    background-color: var(--primary-color);
+} */
