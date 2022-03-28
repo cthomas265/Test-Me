@@ -154,6 +154,7 @@ if (id < 2) {
 
 })
 
+
 //timer
 function startTimer() {
     time = timeCLock;
