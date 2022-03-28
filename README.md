@@ -9,3 +9,9 @@ This repo is to show my skills using Web APIs.
 -Game is over when all questions are answered or timer reaches 0. 
 
 -Initials and score is record.
+
+ https://cthomas265.github.io/Test-Me/
+ 
+ https://github.com/cthomas265/Test-Me
+ 
+ ![image](https://user-images.githubusercontent.com/98835210/160315038-5857b14e-d0ad-4127-a51d-2fb1198e89ba.png)
