@@ -1,3 +1,8 @@
+const timeStart = 80;
+var time = timeStart;
+var timer = document.querySelector(".clock");
+var interval;
+
 
 // Questions will be asked
 const Questions = [{
@@ -14,7 +19,7 @@ const Questions = [{
     id: 1,
     q: "What is the capital of Thailand?",
     a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-        { text: "phuket", isCorrect: false },
+        { text: "Phuket", isCorrect: false },
         { text: "Ayutthaya", isCorrect: false },
         { text: "Bangkok", isCorrect: true }
     ]
@@ -34,7 +39,7 @@ const Questions = [{
     id: 3,
     q: "What pokemon was first created?",
     a: [{text:"Pikachu", isCorrect: false },
-        {text:"Rhydo", isCorrect: true },
+        {text:"Rhydon", isCorrect: true },
         {text:"Snorlax", isCorrect: false },
         {text:"Diglet", isCorrect: false },
     ]
@@ -149,3 +154,19 @@ if (id < 2) {
 
 })
 
+//timer
+function startTimer() {
+    time = timeCLock;
+    timer.innerHTML = "Time: " + time + "s";
+    interval = setInterval(function(){
+        time--;
+        timer.innerHTML = "Time: " + time + "s";
+
+        if (time <= 0) {
+            endQuiz();
+        }
+        
+    }, 3000);
+} 
+
+function startTimer() {}
