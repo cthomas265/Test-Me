@@ -3,12 +3,21 @@
     --secondary-color: #2a90cb;
 }
 
+body {
+    margin: 25px;
+    padding: 0;
+}
+
 header  {
     display: flex;
     align-items: flex-start;
     background-color: #8edce6;
     padding: 10p
     x 25px 0 0;
+}
+
+.hide {
+    display: none;
 }
 
 .timer {

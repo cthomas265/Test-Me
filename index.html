@@ -9,7 +9,15 @@
     <title>Test Me</title>
 </head>
 <body>
-    <header class="row justify-content-around">
+    <div>
+        <h3>Time:
+            <span class="timer">80</span>
+        </h3>
+        <h3 id="score">Score:</h3>
+    </div>
+
+    <header id ="start-screen" class="row justify-content-around">
+
         <h1>Welcome to the quiz</h1>
         <section class="container">
             <h2>Instructions</h2>
@@ -21,30 +29,19 @@
             </ol>
         </section>  
         <nav>
-            <a class="btn" href="/game.html">START</a>
-            <a class="btn" href="./highscore.html">High School</a>
-            <h3 class="timer">Time:</h3>
-            <h3 id="score">Score:</h3>
+            <button type="button" id="start">Start Quiz</button>
+            <a class="btn" href="./highscore.html">High Score</a>
+
         </nav>
     </header>
-    <div class="panel row justify-content-around">
+
+    <main id="quiz-content" class="panel row justify-content-around hide">
 
         <div class="question-container" id="question">
-            
         </div>
-        <div class="answer-container">
-            <button class="answer" onclick="" id="an1" >answer</button>
-
-            <button class="answer" id="an2" >answer2</button>
-
-            <button class="answer" id="an3">answer3</button>
-
-            <button class="answer" id="an4">answer4</button>
+        <div id="answer-container">
         </div>
-        <div >
-            <button class="next">Next</button>
-        </div>
-    </div>
+    </main>
     <script src="JS/script.js"></script>
 </body>
 </html>
